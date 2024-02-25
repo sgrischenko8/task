@@ -1,5 +1,6 @@
 {
   "name": "vue-project",
+  "homepage": "https://sgrischenko8.github.io/task",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
