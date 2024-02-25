@@ -1,10 +1,10 @@
-# vue-project
+# Hotel Booking Calendar
 
-This template should help get you started developing with Vue 3 in Vite.
+This repository includes code for Hotel Booking Calendar app created with Vue 2. The app displays weekly reservations for each apartment, allowing users to navigate forward, backward, and return to the current week. The reservation details are fetched from a booking.json file and displayed in the calendar grid.
 
 ## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[VSCode](https://code.visualstudio.com/) + [Node.js](https://nodejs.org/en).
 
 ## Customize configuration
 
@@ -12,8 +12,10 @@ See [Vite Configuration Reference](https://vitejs.dev/config/).
 
 ## Project Setup
 
+Run the commands below in the VSCode terminal:
+
 ```sh
-npm install
+npm i
 ```
 
 ### Compile and Hot-Reload for Development
@@ -22,16 +24,12 @@ npm install
 npm run dev
 ```
 
+Locally, you have access to the project in your browser at the address: http://localhost:5173/
+
 ### Compile and Minify for Production
 
 ```sh
 npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
 ```
 
 ### Lint with [ESLint](https://eslint.org/)

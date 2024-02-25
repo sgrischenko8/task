@@ -1,13 +1,13 @@
 import Vue from "vue";
-import { createPinia, PiniaVuePlugin } from "pinia";
-
 import App from "./App.vue";
-
 import "./assets/main.css";
+import Vuex from "vuex";
 
-Vue.use(PiniaVuePlugin);
+Vue.use(Vuex);
 
 new Vue({
-  pinia: createPinia(),
-  render: (h) => h(App),
-}).$mount("#app");
+  el: "#app",
+  render: function (createElement) {
+    return createElement(App);
+  },
+});
