@@ -18,5 +18,5 @@ export default defineConfig({
       vue: "vue/dist/vue.esm.js",
     },
   },
-  base: "/task/",
+  base: "/",
 });

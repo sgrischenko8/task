@@ -65,11 +65,9 @@ export default {
     },
     openPopup() {
       this.showPopup = true;
-      console.log("open");
     },
     closePopup() {
       this.showPopup = false;
-      console.log("close");
     },
 
     getOrderStyleObj(booking) {
